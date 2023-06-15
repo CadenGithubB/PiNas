@@ -610,10 +610,10 @@ if [ ${skipNet} -ne 1 ]; then
       skipReboot=1
     fi
 
-    if [ ${skipReboot} -ne 1 ]; then
-      echo "Network setup.  Rebooting..."
-      reboot
-    fi
+    #if [ ${skipReboot} -ne 1 ]; then
+      #echo "Network setup.  Rebooting..."
+      #reboot
+    #fi
   else
     echo "It is recommended to reboot and then setup the network adapter in the openmediavault web interface."
   fi
